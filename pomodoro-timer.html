@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap");
 
 /* General */
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   background-color: #c2e6e8;
 }
 
@@ -16,32 +16,32 @@ body {
 
 button,
 button:active {
-  background-color: rgb(107,186,160);
+  background-color: rgb(242, 160, 160);
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(166,111,150);
-  -webkit-box-shadow: 0.2em 0.2em rgb(166,111,150);
-  -moz-box-shadow: 0.2em 0.2em rgb(166,111,150);
+  box-shadow: 0.2em 0.2em rgb(166, 111, 150);
+  -webkit-box-shadow: 0.2em 0.2em rgb(166, 111, 150);
+  -moz-box-shadow: 0.2em 0.2em rgb(166, 111, 150);
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(166,111,150) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(166,111,150) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(166,111,150) inset;
+  box-shadow: 0.2em 0.2em rgb(166, 111, 150) inset;
+  -webkit-box-shadow: 0.2em 0.2em rgb(166, 111, 150) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(166, 111, 150) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(242,160,160); 
+  background-color: rgb(107, 186, 160);
   width: 350px;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 10px 10px sienna;
+  box-shadow: 10px 10px rgb(166, 111, 150);
 }
 
 /* Display + Stop/Start/Reset Controls */
@@ -49,10 +49,10 @@ button:focus {
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(247,245,212);
+  background-color: rgb(247, 245, 212);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 3px 3px rgb(166, 111, 150) inset;
 }
 
 #display-controls {
@@ -67,11 +67,11 @@ button:focus {
   font-size: 25px;
   text-align: center;
   padding-top: 2px;
-  background-color: rgb(247,245,212);
+  background-color: rgb(247, 245, 212);
   border-radius: 10px;
   height: 40px;
   flex: 2;
-  box-shadow: 3px 3px rgb(182,180,137) inset;
+  box-shadow: 3px 3px rgb(166, 111, 150) inset;
 }
 
 #timer-ssr {
@@ -96,14 +96,14 @@ button:focus {
   flex-direction: row;
   justify-content: center;
   width: 140px;
-  height:60px;
+  height: 60px;
 }
 
-.break-container, 
+.break-container,
 .session-container {
   text-align: center;
-/*   display: inline-block; */
-  border: 2px solid rgb(107,186,160);
+  /*   display: inline-block; */
+  border: 2px solid rgb(247, 245, 212);
   padding: 10px;
   border-radius: 10px;
   width: 48%;
